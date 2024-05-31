@@ -198,7 +198,6 @@ if __name__ == "__main__":
             name, phone_number, new_phone, *_ = args
             print(edit_phone(args))
         elif command == "phone":
-            # user phone number
             name, *_ = args
             print(phone_username(name))
         elif command == "all":
